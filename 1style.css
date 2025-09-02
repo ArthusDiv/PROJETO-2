@@ -1,0 +1,158 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+
+
+.class-left {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+
+.class-right {
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+    vertical-align: top;
+    position: relative;
+   
+}
+
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.88px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+
+}
+
+header{
+    position: relative;
+    top: 3%;
+    left: 5%;
+    width: 80%;
+}
+
+.div-header{
+    position: relative;
+    top:30%;
+}
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+
+    background-color: #6FBF44;
+    width: 124px;
+    height: 51px;
+    opacity: 1;
+    border: solid;
+    border-radius: 6px;
+    border-color: #4CB538;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+img {
+    width: 595px;
+    position: relative;
+    left: 10%;
+    top: 20%;
+
+}
+
+p {
+    width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+h1 {
+    width: 582px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+a{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .link-header{display: none;}
+
+
+    .class-right{
+        height: 50%;
+        width: 100%;
+        display: block;
+        text-align: center;
+         }
+    
+    .class-left{
+        height: auto;
+        width: 100%;
+        display: block;
+        }
+       
+    img{
+        position: absolute;
+        width: 312px;
+        height: 288px;
+        margin-top: 80%;
+    }
+
+    button{
+        font-weight: 500;
+        font-size: 10px;
+
+        width: 91px;
+        height: 31px;
+        position: absolute;
+        left: 85%;
+        top: 10px;
+        
+    }
+       
+    h1{
+        width: 287px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+
+    p{
+        
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        width: 304px;
+        margin: 27px auto;
+    }
+
+}
